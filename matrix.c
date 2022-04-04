@@ -19,7 +19,7 @@ int main()
     printf("[----- [박준용]  [2019038010] -----]\n");//이름과 학번을 출력
 
     int row, col; // 행,열 변수 선언
-    srand(time(NULL));
+    srand(time(NULL));//srand함수를 사용하면 난수 생성시 항상 다른 수를 생성한다
 
     printf("Input row and col : ");
     scanf("%d %d", &row, &col);//행과 열을 입력
